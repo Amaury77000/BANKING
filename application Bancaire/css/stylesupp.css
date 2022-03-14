@@ -1,0 +1,109 @@
+body
+{
+    background-color: #011925;
+}
+#imageprincipal
+{
+    /* propriété du texte*/ 
+    
+    
+    
+    /* propriété de l'image*/
+    padding-top: 20px;
+    height:100% ;
+    margin-right: 0px;
+    margin-left: 0px;
+    background:  url(../img/imageprincipal.jpeg) no-repeat  ;
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+  
+    padding-top: 450px;
+
+}
+
+#colonnespropo 
+{
+/*background-color: lightskyblue;*/
+padding-top: 2px;
+margin-top: 10PX;
+}
+
+#rowcol {
+    
+    padding: 3px;
+  }
+  [class^="col"] {
+      
+      margin: 5px;
+    padding: 2px;
+    
+    background-color: #2d4760;
+    text-shadow: white;
+    border-radius: 1%;
+  }
+#titrecol 
+{
+    text-align: center;
+    color: white;
+}
+#textsection 
+{
+    color: white;
+    text-align: center;
+}
+#accompagne
+{
+    background: url(../img/accompagne.jpg) no-repeat 50% 30%;
+    height: 800px;
+    text-align: center;
+    color: white;
+}
+
+    /* historique */ 
+#historic
+{
+    background-color: #202020;
+    border-radius: 2%;
+
+padding-top: 200px;
+color: white;
+text-align: center;
+border-color: white;
+
+}
+#rowhistoric{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+#rowavenir {
+
+    border-image-width: 600;
+}
+#formulaire {
+  
+    border-color: white;
+    margin-left: 42%;
+    
+    color: white;
+    padding-top: 100px;
+}
+#contact {
+    
+    color: white;
+    
+}
+/*
+background-image:url(../img/imageprincipal.jpeg)  ;
+ background-position: center; 
+     object-fit: contain;*
+     
+     
+     height:1100px;
+     */
